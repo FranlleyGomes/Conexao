@@ -2,13 +2,13 @@ program Principal;
 
 uses
   Vcl.Forms,
-  eProduto.View.Principal in 'eProduto.View.Principal.pas' {frmPrincipal},
-  eProduto.Model.Conexao.Interfaces in 'eProduto.Model.Conexao.Interfaces.pas',
-  uProduto.Model.Conexao.Firedac in 'uProduto.Model.Conexao.Firedac.pas',
-  eProduto.Model.Query.Firedac in 'eProduto.Model.Query.Firedac.pas',
-  eProduto.Model.Entidade.Produto in 'eProduto.Model.Entidade.Produto.pas',
-  eProduto.Controller.Factory.Query in 'eProduto.Controller.Factory.Query.pas',
-  eProduto.Controller.Factory.Interfaces in 'eProduto.Controller.Factory.Interfaces.pas';
+  eProduto.View.Principal in 'View\eProduto.View.Principal.pas' {frmPrincipal},
+  eProduto.Controller.Factory.Interfaces in 'Controller\eProduto.Controller.Factory.Interfaces.pas',
+  eProduto.Controller.Factory.Query in 'Controller\eProduto.Controller.Factory.Query.pas',
+  eProduto.Model.Conexao.Interfaces in 'Model\eProduto.Model.Conexao.Interfaces.pas',
+  eProduto.Model.Entidade.Produto in 'Model\eProduto.Model.Entidade.Produto.pas',
+  eProduto.Model.Query.Firedac in 'Model\eProduto.Model.Query.Firedac.pas',
+  uProduto.Model.Conexao.Firedac in 'Model\uProduto.Model.Conexao.Firedac.pas';
 
 {$R *.res}
 
