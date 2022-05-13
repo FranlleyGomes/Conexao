@@ -42,12 +42,12 @@ end;
 
 procedure TfrmPrincipal.Button2Click(Sender: TObject);
 begin
-FProduto.ListaCampos(Edit1.Text, DataSource1);
+  FProduto.ListaCampos(Edit1.Text, DataSource1);
 end;
 
 procedure TfrmPrincipal.FormCreate(Sender: TObject);
 begin
-FProduto := TModelEntidadeProduto.New;
+  FProduto := TModelEntidadeProduto.New;
 end;
 
 end.
